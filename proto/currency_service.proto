@@ -3,6 +3,7 @@ syntax = "proto3";
 package finance_dashboard;
 
 message TimeSlice {
+    // start and end must be in ISO format
     string start = 1;
     string end = 2;
     string currencyCode = 3;
